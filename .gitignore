@@ -1,0 +1,7 @@
+/app/etc/local.xml
+/.idea
+/media/*
+/var/*
+/downloader/.cache/*
+/downloader/cache.cfg
+/downloader/connect.cfg
