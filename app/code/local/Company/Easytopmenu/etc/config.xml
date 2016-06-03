@@ -49,4 +49,43 @@
             </easytopmenu_read>
         </resources>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <easytopmenu before="Mage_Adminhtml">Company_Easytopmenu_Adminhtml</easytopmenu>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <easytopmenu>
+                    <file>easytopmenu.xml</file>
+                </easytopmenu>
+            </updates>
+        </layout>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <general_options>
+                                            <title>Company Easytopmenu Module Section</title>
+                                        </general_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>

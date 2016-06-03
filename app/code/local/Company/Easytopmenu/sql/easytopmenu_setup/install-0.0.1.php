@@ -28,4 +28,3 @@ NULL , 'namee', '1', '1', 'urll'
 )");
 
 $installer->endSetup();
-
