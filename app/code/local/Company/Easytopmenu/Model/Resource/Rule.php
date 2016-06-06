@@ -4,6 +4,6 @@ class Company_Easytopmenu_Model_Resource_Rule extends Mage_Core_Model_Resource_D
 {
     public function _construct()
     {
-        $this->_init('easytopmenu/easy_top_menu', 'entity_id');
+        $this->_init('easytopmenu/easytopmenu', 'entity_id');
     }
 }

@@ -12,8 +12,13 @@ class Company_Easytopmenu_Adminhtml_RuleController extends Mage_Adminhtml_Contro
        $this->_addContent($this->getLayout()->createBlock('easytopmenu/adminhtml_rule'));
        $this->renderLayout();
    }
-
-
+    public function gridAction()
+    {
+        $this->loadLayout();
+        $this->getResponse()->setBody(
+            $this->getLayout()->createBlock('easytopmenu/adminhtml_rule_grid')->toHtml()
+        );
+    }
 
 
 }
