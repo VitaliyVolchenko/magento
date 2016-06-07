@@ -3,12 +3,11 @@
     <menu>
         <cms translate="title" module="cms">
             <title>CMS</title>
-            <sort_order>30</sort_order>
             <children>
                 <easytopmenu_rules>
                     <title>Manage Top Menu</title>
                     <sort_order>9999</sort_order>
-                    <action>adminhtml/rule/</action>
+                    <action>adminhtml/url/</action>
                 </easytopmenu_rules>
             </children>
         </cms>

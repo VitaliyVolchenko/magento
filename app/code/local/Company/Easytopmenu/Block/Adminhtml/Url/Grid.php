@@ -1,12 +1,12 @@
 <?php
-
-class Company_Easytopmenu_Block_Adminhtml_Rule_Grid extends Mage_Adminhtml_Block_Widget_Grid
+class Company_Easytopmenu_Block_Adminhtml_Url_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
 
     public function __construct()
     {
         parent::__construct();
-        $this->setId('easytopmenu_rule_grid');
+        $this->setId('easytopmenu_url_grid');
+        $this->setUseAjax(true);
         $this->setDefaultSort('entity_id');
         $this->setDefaultDir('ASC');
         $this->setSaveParametersInSession(true);
@@ -14,11 +14,10 @@ class Company_Easytopmenu_Block_Adminhtml_Rule_Grid extends Mage_Adminhtml_Block
 
     protected function _prepareCollection()
     {
-        $collection = Mage::getModel('easytopmenu/rule')->getCollection();
+        $collection = Mage::getModel('easytopmenu/url')->getCollection();
         $this->setCollection($collection);
         return parent::_prepareCollection();
     }
-
 
     protected function _prepareColumns()
     {
@@ -75,6 +74,11 @@ class Company_Easytopmenu_Block_Adminhtml_Rule_Grid extends Mage_Adminhtml_Block
         return parent::_prepareColumns();
     }
 
+    /**
+     * todo: need research. Maybe need refactor
+     *
+     * @return $this|Mage_Adminhtml_Block_Widget_Grid
+     */
     protected function _prepareMassaction()
     {
         $this->setMassactionIdField('entity_id');
@@ -86,7 +90,7 @@ class Company_Easytopmenu_Block_Adminhtml_Rule_Grid extends Mage_Adminhtml_Block
             'confirm'  => Mage::helper('easytopmenu')->__('Are you sure?')
         ));
 
-        $statuses = Mage::getSingleton('easytopmenu/rule_status')->getOptionArray();
+        $statuses = Mage::getSingleton('easytopmenu/url_status')->getOptionArray();
 
         array_unshift($statuses, array('label'=>'', 'value'=>''));
         $this->getMassactionBlock()->addItem('status', array(
