@@ -3,7 +3,7 @@ class Company_Easytopmenu_Model_Resource_Url_Collection extends Mage_Core_Model_
 {
     public function _construct()
     {
-        parent::_construct();
         $this->_init('easytopmenu/url');
+        parent::_construct();
     }
 }

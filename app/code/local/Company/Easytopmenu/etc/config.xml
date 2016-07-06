@@ -6,6 +6,16 @@
         </Company_Easytopmenu>
     </modules>
     <global>
+        <events>
+            <page_block_html_topmenu_gethtml_before>
+                <observers>
+                    <add_easy_top_menu>
+                        <class>easytopmenu/observer </class>
+                        <method>addeasytopmenu</method>
+                    </add_easy_top_menu>
+                </observers>
+            </page_block_html_topmenu_gethtml_before>
+        </events>
         <blocks>
             <easytopmenu>
                 <class>Company_Easytopmenu_Block</class>
