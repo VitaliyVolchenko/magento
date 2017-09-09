@@ -47,7 +47,7 @@ use Mage\Customer\Test\Page\CustomerAccountIndex;
 class ClearAllCompareProductsTest extends AbstractProductsCompareTest
 {
     /**
-     * Test creation for clear all compare products.
+     * Comment creation for clear all compare products.
      *
      * @param string $products
      * @param ConfigData $config

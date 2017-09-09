@@ -42,14 +42,14 @@ class InjectableTests extends \PHPUnit_Framework_TestSuite
     protected $objectManager;
 
     /**
-     * Test suite.
+     * Comment suite.
      *
      * @var \PHPUnit_Framework_TestSuite
      */
     protected $suite;
 
     /**
-     * Test result
+     * Comment result
      *
      * @var \PHPUnit_Framework_TestResult
      */

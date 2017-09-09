@@ -62,7 +62,7 @@ class Zend_Cache_Backend_Apc extends Zend_Cache_Backend implements Zend_Cache_Ba
     }
 
     /**
-     * Test if a cache is available for the given id and (if yes) return it (false else)
+     * Comment if a cache is available for the given id and (if yes) return it (false else)
      *
      * WARNING $doNotTestCacheValidity=true is unsupported by the Apc backend
      *
@@ -80,7 +80,7 @@ class Zend_Cache_Backend_Apc extends Zend_Cache_Backend implements Zend_Cache_Ba
     }
 
     /**
-     * Test if a cache is available or not (for the given id)
+     * Comment if a cache is available or not (for the given id)
      *
      * @param  string $id cache id
      * @return mixed false (a cache is not available) or "last modified" timestamp (int) of the available cache record

@@ -223,7 +223,7 @@ abstract class Zend_Db_Table_Row_Abstract implements ArrayAccess, IteratorAggreg
     }
 
     /**
-     * Test existence of row field
+     * Comment existence of row field
      *
      * @param  string  $columnName   The column key.
      * @return boolean
@@ -378,7 +378,7 @@ abstract class Zend_Db_Table_Row_Abstract implements ArrayAccess, IteratorAggreg
     }
 
     /**
-     * Test the connected status of the row.
+     * Comment the connected status of the row.
      *
      * @return boolean
      */
@@ -388,7 +388,7 @@ abstract class Zend_Db_Table_Row_Abstract implements ArrayAccess, IteratorAggreg
     }
 
     /**
-     * Test the read-only status of the row.
+     * Comment the read-only status of the row.
      *
      * @return boolean
      */

@@ -346,7 +346,7 @@ class Zend_Db_Adapter_Mysqli extends Zend_Db_Adapter_Abstract
     }
 
     /**
-     * Test if a connection is active
+     * Comment if a connection is active
      *
      * @return boolean
      */

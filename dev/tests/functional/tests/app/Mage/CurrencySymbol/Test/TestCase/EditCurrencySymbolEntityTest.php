@@ -36,9 +36,9 @@ use Mage\CurrencySymbol\Test\Fixture\CurrencySymbolEntity;
 use Mage\CurrencySymbol\Test\Page\Adminhtml\SystemCurrencySymbolIndex;
 
 /**
- * Test Creation for EditCurrencySymbolEntity
+ * Comment Creation for EditCurrencySymbolEntity
  *
- * Test Flow:
+ * Comment Flow:
  * Preconditions:
  * 1. Apply custom currency in Config.
  * 2. Navigate to Stores->Manage Currency->Rates and click to Import button.

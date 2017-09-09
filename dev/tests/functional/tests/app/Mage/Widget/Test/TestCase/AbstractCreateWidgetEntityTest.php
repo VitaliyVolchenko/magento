@@ -33,7 +33,7 @@ use Mage\Widget\Test\Page\Adminhtml\WidgetInstanceNew;
 use Magento\Mtf\TestCase\Injectable;
 
 /**
- * Test Creation for New Instance of WidgetEntity.
+ * Comment Creation for New Instance of WidgetEntity.
  */
 abstract class AbstractCreateWidgetEntityTest extends Injectable
 {

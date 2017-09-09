@@ -155,7 +155,7 @@ class Zend_Cache_Backend_Libmemcached extends Zend_Cache_Backend implements Zend
     }
 
     /**
-     * Test if a cache is available for the given id and (if yes) return it (false else)
+     * Comment if a cache is available for the given id and (if yes) return it (false else)
      *
      * @param  string  $id                     Cache id
      * @param  boolean $doNotTestCacheValidity If set to true, the cache validity won't be tested
@@ -171,7 +171,7 @@ class Zend_Cache_Backend_Libmemcached extends Zend_Cache_Backend implements Zend
     }
 
     /**
-     * Test if a cache is available or not (for the given id)
+     * Comment if a cache is available or not (for the given id)
      *
      * @param  string $id Cache id
      * @return int|false (a cache is not available) or "last modified" timestamp (int) of the available cache record

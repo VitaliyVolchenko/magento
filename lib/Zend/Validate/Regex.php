@@ -103,7 +103,7 @@ class Zend_Validate_Regex extends Zend_Validate_Abstract
     public function setPattern($pattern)
     {
         $this->_pattern = (string) $pattern;
-        $status         = @preg_match($this->_pattern, "Test");
+        $status         = @preg_match($this->_pattern, "Comment");
 
         if (false === $status) {
             #require_once 'Zend/Validate/Exception.php';

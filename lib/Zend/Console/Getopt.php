@@ -283,7 +283,7 @@ class Zend_Console_Getopt
     }
 
     /**
-     * Test whether a given option has been seen.
+     * Comment whether a given option has been seen.
      *
      * @param  string $key
      * @return boolean

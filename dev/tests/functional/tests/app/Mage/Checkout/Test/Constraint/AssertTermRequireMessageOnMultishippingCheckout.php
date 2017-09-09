@@ -48,7 +48,7 @@ class AssertTermRequireMessageOnMultishippingCheckout extends AbstractConstraint
     const NOTIFICATION_MESSAGE = 'Please agree to all Terms and Conditions before placing the orders.';
 
     /**
-     * Test step factory.
+     * Comment step factory.
      *
      * @var TestStepFactory
      */

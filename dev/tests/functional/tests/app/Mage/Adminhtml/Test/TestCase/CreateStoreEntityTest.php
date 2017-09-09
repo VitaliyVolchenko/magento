@@ -38,7 +38,7 @@ use Mage\Adminhtml\Test\Page\Adminhtml\DeleteGroup;
 use Mage\Adminhtml\Test\Page\AdminLogout;
 
 /**
- * Test Creation for CreateStoreEntity (Store Management)
+ * Comment Creation for CreateStoreEntity (Store Management)
  *
  * Steps:
  * 1. Open Backend

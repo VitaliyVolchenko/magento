@@ -90,7 +90,7 @@ class Zend_Cache_Backend_Test extends Zend_Cache_Backend implements Zend_Cache_B
     }
 
     /**
-     * Test if a cache is available for the given id and (if yes) return it (false else)
+     * Comment if a cache is available for the given id and (if yes) return it (false else)
      *
      * For this test backend only, if $id == 'false', then the method will return false
      * if $id == 'serialized', the method will return a serialized array
@@ -132,7 +132,7 @@ class Zend_Cache_Backend_Test extends Zend_Cache_Backend implements Zend_Cache_B
     }
 
     /**
-     * Test if a cache is available or not (for the given id)
+     * Comment if a cache is available or not (for the given id)
      *
      * For this test backend only, if $id == 'false', then the method will return false
      * (123456 else)

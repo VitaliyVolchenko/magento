@@ -164,7 +164,7 @@ class Mage_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action
     }
 
     /**
-     * Test action
+     * Comment action
      */
     public function testAction()
     {

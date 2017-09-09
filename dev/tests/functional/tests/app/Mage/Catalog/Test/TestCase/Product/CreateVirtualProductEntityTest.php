@@ -33,7 +33,7 @@ use Mage\Catalog\Test\Page\Adminhtml\CatalogProductNew;
 use Magento\Mtf\TestCase\Injectable;
 
 /**
- * Test Flow:
+ * Comment Flow:
  *
  * Steps:
  * 1. Login to the backend.

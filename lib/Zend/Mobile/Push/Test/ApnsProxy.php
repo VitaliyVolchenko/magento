@@ -24,7 +24,7 @@
 #require_once 'Zend/Mobile/Push/Apns.php';
 
 /**
- * Apns Test Proxy
+ * Apns Comment Proxy
  * This class is utilized for unit testing purposes
  *
  * @category   Zend

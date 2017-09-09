@@ -141,7 +141,7 @@ abstract class AbstractAssertTaxCalculationAfterCheckout extends AbstractAssertT
      */
     protected function checkoutStep($type, array $arguments = null)
     {
-        $className = "Mage\\Checkout\\Test\\TestStep\\{$this->steps[$type]['class']}Step";
+        $className = "Mage\\Checkout\\Comment\\TestStep\\{$this->steps[$type]['class']}Step";
         $arguments = isset($this->steps[$type]['arguments'])
             ? $this->prepareArgumentsForStep($this->steps[$type]['arguments'], $arguments)
             : [];

@@ -74,7 +74,7 @@ class Zend_Amf_Adobe_DbInspector
     }
 
     /**
-     * Test database connection
+     * Comment database connection
      *
      * @param string $dbType Database adapter type for Zend_Db
      * @param array|object $dbDescription Adapter-specific connection settings

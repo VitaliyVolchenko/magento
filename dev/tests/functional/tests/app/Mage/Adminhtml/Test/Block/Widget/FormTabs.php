@@ -95,8 +95,8 @@ class FormTabs extends Form
             $paths = array_merge(
                 $paths,
                 glob(MTF_TESTS_PATH . preg_replace('/Mage\/(\w+)(\/.*Block\/)/', '*/*$2$1/', $realPath)),
-                glob(MTF_TESTS_PATH . preg_replace('@.*Adminhtml/(.*)@', '*/Adminhtml/Test/Block/$1', $realPath)),
-                glob(MTF_TESTS_PATH . preg_replace('/.*Adminhtml\/(.*)/', '*/*/Test/Block/*/$1', $realPath))
+                glob(MTF_TESTS_PATH . preg_replace('@.*Adminhtml/(.*)@', '*/Adminhtml/Comment/Block/$1', $realPath)),
+                glob(MTF_TESTS_PATH . preg_replace('/.*Adminhtml\/(.*)/', '*/*/Comment/Block/*/$1', $realPath))
             );
         }
         return array_reverse($paths);

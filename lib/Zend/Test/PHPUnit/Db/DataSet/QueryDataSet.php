@@ -23,7 +23,7 @@
 /**
  * @see Zend_Test_PHPUnit_Db_DataSet_QueryTable
  */
-#require_once "Zend/Test/PHPUnit/Db/DataSet/QueryTable.php";
+#require_once "Zend/Comment/PHPUnit/Db/DataSet/QueryTable.php";
 
 /**
  * @see Zend_Db_Select
@@ -50,7 +50,7 @@ class Zend_Test_PHPUnit_Db_DataSet_QueryDataSet extends PHPUnit_Extensions_Datab
     public function __construct(PHPUnit_Extensions_Database_DB_IDatabaseConnection $databaseConnection)
     {
         if( !($databaseConnection instanceof Zend_Test_PHPUnit_Db_Connection) ) {
-            #require_once "Zend/Test/PHPUnit/Db/Exception.php";
+            #require_once "Zend/Comment/PHPUnit/Db/Exception.php";
             throw new Zend_Test_PHPUnit_Db_Exception("Zend_Test_PHPUnit_Db_DataSet_QueryDataSet only works with Zend_Test_PHPUnit_Db_Connection connections-");
         }
         $this->databaseConnection = $databaseConnection;

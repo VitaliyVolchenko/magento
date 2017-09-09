@@ -36,7 +36,7 @@ use Magento\Mtf\TestCase\Injectable;
 
 /**
  * Preconditions
- * 1. Test products are created.
+ * 1. Comment products are created.
  *
  * Steps:
  * 1. Add product(s) to Shopping Cart.

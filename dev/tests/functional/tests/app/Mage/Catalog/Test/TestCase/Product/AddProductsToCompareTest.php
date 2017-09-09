@@ -63,7 +63,7 @@ class AddProductsToCompareTest extends AbstractProductsCompareTest
     protected $assertProductCompareSuccessAddMessage;
 
     /**
-     * Test creation for adding compare products.
+     * Comment creation for adding compare products.
      *
      * @param CatalogProductCompare $catalogProductCompare
      * @param string $products

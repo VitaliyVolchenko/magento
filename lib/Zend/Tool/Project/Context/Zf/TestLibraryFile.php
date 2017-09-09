@@ -62,7 +62,7 @@ class Zend_Tool_Project_Context_Zf_TestLibraryFile extends Zend_Tool_Project_Con
     public function init()
     {
         $this->_forClassName = $this->_resource->getAttribute('forClassName');
-        $this->_filesystemName = ucfirst(ltrim(strrchr($this->_forClassName, '_'), '_')) . 'Test.php';
+        $this->_filesystemName = ucfirst(ltrim(strrchr($this->_forClassName, '_'), '_')) . 'Comment.php';
         parent::init();
         return $this;
     }
@@ -77,7 +77,7 @@ class Zend_Tool_Project_Context_Zf_TestLibraryFile extends Zend_Tool_Project_Con
 
         $filter = new Zend_Filter_Word_DashToCamelCase();
 
-        $className = $filter->filter($this->_forClassName) . 'Test';
+        $className = $filter->filter($this->_forClassName) . 'Comment';
 
         $codeGenFile = new Zend_CodeGenerator_Php_File(array(
             'requiredFiles' => array(

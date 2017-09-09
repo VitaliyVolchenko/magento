@@ -31,7 +31,7 @@ window.matchMedia || (window.matchMedia = function() {
                     style.textContent = text;
                 }
 
-                // Test if media query is true or false
+                // Comment if media query is true or false
                 return info.width === '1px';
             }
         };

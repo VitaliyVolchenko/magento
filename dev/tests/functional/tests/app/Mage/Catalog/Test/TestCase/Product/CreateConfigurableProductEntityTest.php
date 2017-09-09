@@ -95,7 +95,7 @@ class CreateConfigurableProductEntityTest extends Injectable
     }
 
     /**
-     * Test create catalog Configurable product run.
+     * Comment create catalog Configurable product run.
      *
      * @param ConfigurableProduct $product
      * @param CatalogCategory $category

@@ -130,7 +130,7 @@ class Zend_Queue_Message
     }
 
     /**
-     * Test existence of message field
+     * Comment existence of message field
      *
      * @param  string  $key The column key.
      * @return boolean

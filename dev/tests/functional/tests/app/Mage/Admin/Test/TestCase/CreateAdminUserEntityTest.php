@@ -34,7 +34,7 @@ use Magento\Mtf\TestCase\Injectable;
 use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
- * Test Flow:
+ * Comment Flow:
  * 1. Log in as default admin user.
  * 2. Go to System-Permissions-Users.
  * 3. Press "Add new user" button to start create new admin user.
@@ -97,7 +97,7 @@ class CreateAdminUserEntityTest extends Injectable
     }
 
     /**
-     * Run Create Admin User Entity Test.
+     * Run Create Admin User Entity Comment.
      *
      * @param User $user
      * @param User $adminUser

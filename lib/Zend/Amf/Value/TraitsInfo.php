@@ -68,7 +68,7 @@ class Zend_Amf_Value_TraitsInfo
     }
 
     /**
-     * Test if the class is a dynamic class
+     * Comment if the class is a dynamic class
      *
      * @return boolean
      */
@@ -78,7 +78,7 @@ class Zend_Amf_Value_TraitsInfo
     }
 
     /**
-     * Test if class is externalizable
+     * Comment if class is externalizable
      *
      * @return boolean
      */

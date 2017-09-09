@@ -34,7 +34,7 @@ use Mage\Catalog\Test\Fixture\CatalogAttributeSet;
  * Precondition:
  * 1. Create new attribute set.
  *
- * Test Flow:
+ * Comment Flow:
  * 1. Log in to backend.
  * 2. Navigate to Catalog > Attributes > Manage Attributes.
  * 3. Click 'Add New Attribute' button.

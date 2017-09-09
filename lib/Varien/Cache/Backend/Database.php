@@ -129,7 +129,7 @@ class Varien_Cache_Backend_Database
     }
 
     /**
-     * Test if a cache is available for the given id and (if yes) return it (false else)
+     * Comment if a cache is available for the given id and (if yes) return it (false else)
      *
      * Note : return value is always "string" (unserialization is done by the core not by the backend)
      *
@@ -154,7 +154,7 @@ class Varien_Cache_Backend_Database
     }
 
     /**
-     * Test if a cache is available or not (for the given id)
+     * Comment if a cache is available or not (for the given id)
      *
      * @param  string $id cache id
      * @return mixed|false (a cache is not available) or "last modified" timestamp (int) of the available cache record

@@ -147,7 +147,7 @@ abstract class Zend_Db_Adapter_Pdo_Abstract extends Zend_Db_Adapter_Abstract
     }
 
     /**
-     * Test if a connection is active
+     * Comment if a connection is active
      *
      * @return boolean
      */

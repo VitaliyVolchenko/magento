@@ -83,7 +83,7 @@ class Mage_Connect_Structures_Node
 
     /**
      *
-     * Test for existence of metadata under a given key.
+     * Comment for existence of metadata under a given key.
      *
      * @param    string    Key to test
      * @return   boolean
@@ -189,7 +189,7 @@ class Mage_Connect_Structures_Node
     }
 
     /**
-     * Test wether this node has an arc to the target node
+     * Comment wether this node has an arc to the target node
      * Returns true if the two nodes are connected
      * @return boolean   
      */

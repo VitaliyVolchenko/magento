@@ -20,7 +20,7 @@ References:
  * CSS Syntax          : http://www.w3.org/TR/2003/WD-css3-syntax-20030813/#style
  * Selectors           : http://www.w3.org/TR/css3-selectors/#selectors
  * IE Compatability    : http://msdn.microsoft.com/en-us/library/cc351024(VS.85).aspx
- * W3C Selector Tests  : http://www.w3.org/Style/CSS/Test/CSS3/Selectors/current/html/tests/
+ * W3C Selector Tests  : http://www.w3.org/Style/CSS/Comment/CSS3/Selectors/current/html/tests/
  
 */
 

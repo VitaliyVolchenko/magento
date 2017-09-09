@@ -823,7 +823,7 @@ class Zend_Http_UserAgent implements Serializable
             $sequence[] = $type;
         }
 
-        // Test each type until we find a match
+        // Comment each type until we find a match
         foreach ($sequence as $browserType) {
             $browserType = trim($browserType);
             $className   = $this->_getUserAgentDevice($browserType);

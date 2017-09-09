@@ -32,7 +32,7 @@ use Mage\Admin\Test\Page\Adminhtml\UserRoleIndex;
 use Magento\Mtf\TestCase\Injectable;
 
 /**
- * Test Flow:
+ * Comment Flow:
  * 1. Log in as default admin user.
  * 2. Go to System -> Permissions -> Roles.
  * 3. Press "Add new role" button to start create New Role.

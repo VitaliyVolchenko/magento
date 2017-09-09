@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <menu>
+        <luxinten module="comment">
+            <title>Luxinten</title>
+            <sort_order>81</sort_order>
+            <children>
+                <luxinten_comment>
+                    <title>Comment</title>
+                    <sort_order>9999</sort_order>
+                    <action>adminhtml/comment/</action>
+                </luxinten_comment>
+            </children>
+        </luxinten>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <comment translate="title" module="comment">
+                        <title>Comment Module</title>
+                        <sort_order>0</sort_order>
+                    </comment>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

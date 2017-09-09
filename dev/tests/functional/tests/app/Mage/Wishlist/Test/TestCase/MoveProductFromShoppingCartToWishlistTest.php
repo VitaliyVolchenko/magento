@@ -32,7 +32,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
  * Preconditions:
- * 1. Test products are created.
+ * 1. Comment products are created.
  * 2. Create customer and login on frontend.
  *
  * Steps:

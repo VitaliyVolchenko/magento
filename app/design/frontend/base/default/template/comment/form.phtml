@@ -1,0 +1,25 @@
+<?php $_product = $this->getProduct(); ?>
+<form action="<?php echo Mage::getUrl('comment/index/save'); ?>" id="comment-form" method="post">
+    <div class="fieldset">
+        <ul class="form-list">
+            <li class="wide">
+                <label for="comment" ><?php echo Mage::helper('comment')->__('Comment') ?></label>
+                <div class="input-box">
+                    <textarea name="comment" id="comment" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('comment')->__('Comment')) ?>"
+                              class="required-entry input-text" cols="5" rows="3"></textarea>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="buttons-set">
+        <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
+        <button type="submit" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('contacts')->__('Submit')) ?>"
+                class="button"><span><span><?php echo Mage::helper('contacts')->__('Submit') ?></span></span></button>
+    </div>
+</form>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var dataForm = new VarienForm('comment-form', true);
+    //]]>
+</script>

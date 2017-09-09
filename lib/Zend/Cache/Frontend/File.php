@@ -165,7 +165,7 @@ class Zend_Cache_Frontend_File extends Zend_Cache_Core
     }
 
     /**
-     * Test if a cache is available for the given id and (if yes) return it (false else)
+     * Comment if a cache is available for the given id and (if yes) return it (false else)
      *
      * @param  string  $id                     Cache id
      * @param  boolean $doNotTestCacheValidity If set to true, the cache validity won't be tested
@@ -184,7 +184,7 @@ class Zend_Cache_Frontend_File extends Zend_Cache_Core
     }
 
     /**
-     * Test if a cache is available for the given id
+     * Comment if a cache is available for the given id
      *
      * @param  string $id Cache id
      * @return int|false Last modified time of cache entry if it is available, false otherwise

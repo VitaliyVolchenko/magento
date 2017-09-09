@@ -87,7 +87,7 @@ class CreateDownloadableProductEntityTest extends Injectable
     }
 
     /**
-     * Test create downloadable product.
+     * Comment create downloadable product.
      *
      * @param DownloadableProduct $product
      * @param CatalogCategory $category

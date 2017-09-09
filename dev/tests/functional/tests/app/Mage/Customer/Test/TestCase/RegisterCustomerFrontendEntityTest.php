@@ -33,7 +33,7 @@ use Mage\Customer\Test\Page\CustomerAccountCreate;
 use Mage\Customer\Test\Page\CustomerAccountLogout;
 
 /**
- * Test Flow:
+ * Comment Flow:
  * 1. Go to frontend.
  * 2. Click Register link.
  * 3. Fill registry form.

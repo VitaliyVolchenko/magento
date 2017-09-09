@@ -490,7 +490,7 @@ class Mage_Paypal_Model_Cart
      * - Apply Customer Tax = After Discount
      * - Apply Discount on Prices = Including Tax
      *
-     * Test case for getting "hidden shipping tax":
+     * Comment case for getting "hidden shipping tax":
      * - Make sure shipping is taxable (set shipping tax class)
      * - Catalog Prices = Including Tax
      * - Shipping Prices = Including Tax

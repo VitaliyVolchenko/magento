@@ -28,7 +28,7 @@
 /**
  * @see Zend_Test_DbStatement
  */
-#require_once "Zend/Test/DbStatement.php";
+#require_once "Zend/Comment/DbStatement.php";
 
 /**
  * @see Zend_Db_Profiler
@@ -207,7 +207,7 @@ class Zend_Test_DbAdapter extends Zend_Db_Adapter_Abstract
     }
 
     /**
-     * Test if a connection is active
+     * Comment if a connection is active
      *
      * @return boolean
      */

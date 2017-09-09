@@ -74,7 +74,7 @@ class CreateTaxRuleEntityTest extends Injectable
     }
 
     /**
-     * Test create tax rule.
+     * Comment create tax rule.
      *
      * @param TaxRule $taxRule
      * @return void

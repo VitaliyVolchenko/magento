@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Luxinten_Comment>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Luxinten_Comment>
+    </modules>
+</config>

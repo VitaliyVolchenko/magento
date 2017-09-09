@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<layout>
+    <adminhtml_comment_index>
+        <reference name="content">
+            <block type="comment/adminhtml_comment" name="comment"></block>
+        </reference>
+    </adminhtml_comment_index>
+</layout>

@@ -47,7 +47,7 @@ class Mage_Centinel_Model_State_Jcb extends Mage_Centinel_Model_StateAbstract
      */
     public function isAuthenticateSuccessful()
     {
-        //Test cases 5-9
+        //Comment cases 5-9
         if (!$this->getIsModeStrict() && $this->_isLookupSoftSuccessful()) {
             return true;
         }
@@ -59,27 +59,27 @@ class Mage_Centinel_Model_State_Jcb extends Mage_Centinel_Model_StateAbstract
         $errorNo = $this->getAuthenticateErrorNo();
         $signatureVerification = $this->getAuthenticateSignatureVerification();
 
-        //Test cases 1-4, 10-11
+        //Comment cases 1-4, 10-11
         if ($this->_isLookupStrictSuccessful()) {
 
             if ($paResStatus == 'Y' && $eciFlag == '05' && $xid != '' && $cavv != '' && $errorNo == '0') {
-                //Test case 1
+                //Comment case 1
                 if ($signatureVerification == 'Y') {
                     return true;
                 }
-                //Test case 2
+                //Comment case 2
                 if ($signatureVerification == 'N') {
                     return false;
                 }
             }
 
-            //Test case 3
+            //Comment case 3
             if ($paResStatus == 'N' && $signatureVerification == 'Y' && $eciFlag == '07' &&
                 $xid != '' && $cavv == '' && $errorNo == '0') {
                 return false;
             }
 
-            //Test case 4
+            //Comment case 4
             if ($paResStatus == 'U' && $signatureVerification == 'Y' && $eciFlag == '07' &&
                 $xid != '' && $cavv == '' && $errorNo == '0') {
                 if ($this->getIsModeStrict()) {
@@ -89,7 +89,7 @@ class Mage_Centinel_Model_State_Jcb extends Mage_Centinel_Model_StateAbstract
                 }
             }
 
-            //Test case 5
+            //Comment case 5
             if ($paResStatus == 'U' && $signatureVerification == 'Y' && $eciFlag == '07' &&
                 $xid != '' && $cavv == '' && $errorNo == '0') {
                 if ($this->getIsModeStrict()) {
@@ -99,13 +99,13 @@ class Mage_Centinel_Model_State_Jcb extends Mage_Centinel_Model_StateAbstract
                 }
             }
 
-            //Test case 10
+            //Comment case 10
             if ($paResStatus == '' && $signatureVerification == '' && $eciFlag == '07' &&
                 $xid == '' && $cavv == '' && $errorNo != '0') {
                 return false;
             }
 
-            //Test case 11
+            //Comment case 11
             if ($paResStatus == 'A' && $signatureVerification == 'Y' && $eciFlag == '06' &&
                 $xid != '' && $cavv != '' && $errorNo == '0') {
                 return true;
@@ -122,7 +122,7 @@ class Mage_Centinel_Model_State_Jcb extends Mage_Centinel_Model_StateAbstract
      */
     protected function _isLookupStrictSuccessful()
     {
-        //Test cases 1-4, 6, 10-11
+        //Comment cases 1-4, 6, 10-11
         if ($this->getLookupEnrolled() == 'Y' &&
             $this->getLookupAcsUrl() != '' &&
             $this->getLookupPayload() != '' &&
@@ -144,17 +144,17 @@ class Mage_Centinel_Model_State_Jcb extends Mage_Centinel_Model_StateAbstract
         $errorNo = $this->getLookupErrorNo();
         $enrolled = $this->getLookupEnrolled();
 
-        //Test cases 5
+        //Comment cases 5
         if ($enrolled == '' && $acsUrl == '' && $payload == '' && $errorNo == '0') {
             return true;
         }
 
-        //Test case 7
+        //Comment case 7
         if ($enrolled == 'U' && $acsUrl == '' && $payload == '' && $errorNo == '0') {
             return true;
         }
 
-        //Test cases 8,9
+        //Comment cases 8,9
         if ($enrolled == 'U' && $acsUrl == '' && $payload == '' && $errorNo != '0') {
             return true;
         }

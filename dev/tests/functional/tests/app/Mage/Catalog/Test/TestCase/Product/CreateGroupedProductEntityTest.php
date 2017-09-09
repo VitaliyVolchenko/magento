@@ -96,7 +96,7 @@ class CreateGroupedProductEntityTest extends Injectable
     }
 
     /**
-     * Test create grouped product.
+     * Comment create grouped product.
      *
      * @param GroupedProduct $product
      * @param CatalogCategory $category

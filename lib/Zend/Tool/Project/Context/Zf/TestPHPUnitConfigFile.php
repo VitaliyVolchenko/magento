@@ -58,10 +58,10 @@ class Zend_Tool_Project_Context_Zf_TestPHPUnitConfigFile extends Zend_Tool_Proje
     {
         return <<<EOS
 <phpunit bootstrap="./bootstrap.php">
-    <testsuite name="Application Test Suite">
+    <testsuite name="Application Comment Suite">
         <directory>./application</directory>
     </testsuite>
-    <testsuite name="Library Test Suite">
+    <testsuite name="Library Comment Suite">
         <directory>./library</directory>
     </testsuite>
     

@@ -203,7 +203,7 @@ class Cm_Cache_Backend_Redis extends Zend_Cache_Backend implements Zend_Cache_Ba
     }
 
     /**
-     * Test if a cache is available or not (for the given id)
+     * Comment if a cache is available or not (for the given id)
      *
      * @param  string $id Cache id
      * @return bool|int False if record is not available or "last modified" timestamp of the available cache record

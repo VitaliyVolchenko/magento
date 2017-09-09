@@ -127,7 +127,7 @@ class Zend_Cache_Backend_Static
     }
 
     /**
-     * Test if a cache is available for the given id and (if yes) return it (false else)
+     * Comment if a cache is available for the given id and (if yes) return it (false else)
      *
      * Note : return value is always "string" (unserialization is done by the core not by the backend)
      *
@@ -164,7 +164,7 @@ class Zend_Cache_Backend_Static
     }
 
     /**
-     * Test if a cache is available or not (for the given id)
+     * Comment if a cache is available or not (for the given id)
      *
      * @param  string $id cache id
      * @return bool

@@ -33,7 +33,7 @@ use Mage\Customer\Test\Fixture\Customer;
 use Magento\Mtf\TestCase\Injectable;
 
 /**
- * Test Flow:
+ * Comment Flow:
  * 1. Log in as default admin user.
  * 2. Go to Customers > All Customers.
  * 3. Press "Add New Customer" button.

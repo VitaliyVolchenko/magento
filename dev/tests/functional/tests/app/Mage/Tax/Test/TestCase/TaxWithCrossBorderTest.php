@@ -160,7 +160,7 @@ class TaxWithCrossBorderTest extends Injectable
     }
 
     /**
-     * Test product prices with tax.
+     * Comment product prices with tax.
      *
      * @param CatalogProductSimple $product
      * @param string $config

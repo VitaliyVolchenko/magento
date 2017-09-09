@@ -91,7 +91,7 @@ class Page extends AbstractGenerate
         $className = ucfirst($name);
         $module = str_replace('_', '/', $data['module']);
         $area = empty($data['area']) ? null : $data['area'];
-        $folderPath = $module . '/Test/Page' . (($area === null) ? '' : ('/' . $area));
+        $folderPath = $module . '/Comment/Page' . (($area === null) ? '' : ('/' . $area));
         $realFolderPath = MTF_BP . '/generated/' . $folderPath;
         $namespace = str_replace('/', '\\', $folderPath);
         $mca = isset($data['mca']) ? $data['mca'] : '';

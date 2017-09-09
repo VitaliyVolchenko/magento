@@ -87,7 +87,7 @@ class CreateBundleProductEntityTest extends Injectable
     }
 
     /**
-     * Test create bundle product.
+     * Comment create bundle product.
      *
      * @param BundleProduct $product
      * @param CatalogCategory $category
